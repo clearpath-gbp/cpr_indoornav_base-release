@@ -1,0 +1,52 @@
+ros-noetic-cpr-indoornav-base (0.3.3-2focal) focal; urgency=high
+
+  * Update the ROS2 domain IDs since they've changed on the latest IndoorNav ISO
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Fri, 03 Jun 2022 04:00:00 -0000
+
+ros-noetic-cpr-indoornav-base (0.3.2-2focal) focal; urgency=high
+
+  * Use python3 not python for the tf republisher script
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Fri, 13 May 2022 04:00:00 -0000
+
+ros-noetic-cpr-indoornav-base (0.3.1-2focal) focal; urgency=high
+
+  * Add additional relays to expose IndoorNav backpack topics to external hosts
+  * Add a simple tf republisher to ensure the tf between map and odom is visible
+    externally
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Thu, 12 May 2022 04:00:00 -0000
+
+ros-noetic-cpr-indoornav-base (0.3.0-2focal) focal; urgency=high
+
+  * Initial public release
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Fri, 06 May 2022 04:00:00 -0000
+
+ros-noetic-cpr-indoornav-base (0.2.0-2focal) focal; urgency=high
+
+  * Merge branch 'melodic-devel' into noetic-devel
+  * Initial release for Noetic
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Tue, 22 Feb 2022 05:00:00 -0000
+
+ros-noetic-cpr-indoornav-base (0.1.1-2focal) focal; urgency=high
+
+  * Refactor the package structure, rename packages for clarity
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Tue, 22 Feb 2022 05:00:00 -0000
+
+ros-noetic-cpr-indoornav-base (0.1.0-2focal) focal; urgency=high
+
+  * Inital Release
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Wed, 16 Feb 2022 05:00:00 -0000
+
+
