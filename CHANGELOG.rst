@@ -2,6 +2,11 @@
 Changelog for package cpr_indoornav_base
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.3 (2022-06-03)
+------------------
+* Update the ROS2 domain IDs since they've changed on the latest IndoorNav ISO
+* Contributors: Chris Iverach-Brereton
+
 0.3.2 (2022-05-13)
 ------------------
 * Use python3 not python for the tf republisher script
