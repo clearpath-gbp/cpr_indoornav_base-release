@@ -2,6 +2,17 @@
 Changelog for package cpr_indoornav_base
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.4 (2022-11-24)
+------------------
+* Update docking controller file
+* Add wireless docking support
+* Assume always 2 lasers in indoornav
+* Fix value to default in launch
+* Moved controller launch to each repo since envvars relative to each robot
+* Added lanuch files for running indoornav docking
+* Add instructions for building the ROS2 SDK examples since they require manual fixes
+* Contributors: Chris Iverach-Brereton, José Mastrangelo
+
 0.3.3 (2022-06-03)
 ------------------
 * Update the ROS2 domain IDs since they've changed on the latest IndoorNav ISO
