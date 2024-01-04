@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>cpr_indoornav_base</name>
-  <version>0.3.4</version>
+  <version>0.4.0</version>
   <description>Remote launch files for starting IndoorNav on a backpack PC</description>
 
   <maintainer email="civerachb@clearpathrobotics.com">Chris Iverach-Brereton</maintainer>
@@ -11,10 +11,10 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <exec_depend>clearpath_api</exec_depend>
-  <exec_depend>cpr_gps_safety</exec_depend>
   <exec_depend>launch_delay</exec_depend>
   <exec_depend>mbf_costmap_nav</exec_depend>
   <exec_depend>robot_upstart</exec_depend>
+  <exec_depend>rospy</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>topic_tools</exec_depend>
