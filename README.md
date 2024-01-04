@@ -1,3 +1,26 @@
+## cpr_indoornav_base (noetic) - 0.4.0-1
+
+The packages in the `cpr_indoornav_base` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -t noetic -r noetic cpr_indoornav_base` on `Thu, 04 Jan 2024 17:56:57 -0000`
+
+The `cpr_indoornav_base` package was released.
+
+Version of package(s) in repository `cpr_indoornav_base`:
+
+- upstream repository: https://github.com/clearpathrobotics/cpr-indoornav-base.git
+- release repository: https://github.com/clearpath-gbp/cpr_indoornav_base-release.git
+- rosdistro version: `0.3.4-1`
+- old version: `0.3.4-1`
+- new version: `0.4.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## cpr_indoornav_base (noetic) - 0.3.4-1
 
 The packages in the `cpr_indoornav_base` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -t noetic -r noetic cpr_indoornav_base` on `Thu, 24 Nov 2022 16:25:41 -0000`
