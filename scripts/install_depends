@@ -4,11 +4,11 @@
 # Needed to configure the proxy server to provide access to the web gui
 sudo apt-get install -y apache2
 
-# by default we assume we're using Foxy because it's the LTS release
-# but Galactic works too and may have some advantages
+# by default we assume we're using galactic, as it has better support for multiple concurrent domains
+# foxy is also usable, and has the benefit of being an LTS release
 if [ -z "$ROS2_DISTRO" ];
 then
-  export ROS2_DISTRO="foxy"
+  export ROS2_DISTRO="galactic"
 fi
 
 # Install ROS2 dependencies
