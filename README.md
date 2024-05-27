@@ -187,7 +187,7 @@ git clone https://github.com/ros2/ros1_bridge.git
 #git clone https://github.com/ipa-hsd/ros1_bridge/tree/action_bridge.git -b action_server
 
 # TODO - this won't work yet as the repo has not been made public yet
-git clone https://github.com/clearpathrobotics/clearpath_api.git -b foxy-devel
+git clone https://github.com/clearpathrobotics/clearpath_api.git -b galactic-devel
 ```
 
 To build the packages, run the following commands:
@@ -195,7 +195,7 @@ To build the packages, run the following commands:
 cd $HOME/bridge_ws
 export CMAKE_PREFIX_PATH=
 export ROS1_INSTALL_PATH=/opt/ros/noetic
-export ROS2_INSTALL_PATH=/opt/ros/foxy     # or /opt/ros/galactic
+export ROS2_INSTALL_PATH=/opt/ros/galactic     # or /opt/ros/foxy
 
 source ${ROS2_INSTALL_PATH}/setup.bash
 colcon build --symlink-install --packages-skip ros1_bridge
@@ -281,4 +281,3 @@ ament_target_dependencies(get_map_info
 
 install(TARGETS monitor_odom_intent send_move_goal get_map_info DESTINATION lib/${PROJECT_NAME})
 ```
-
