@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>cpr_indoornav_base</name>
-  <version>0.4.0</version>
+  <version>0.4.1</version>
   <description>Remote launch files for starting IndoorNav on a backpack PC</description>
 
   <maintainer email="civerachb@clearpathrobotics.com">Chris Iverach-Brereton</maintainer>
@@ -22,14 +22,6 @@
 
   <!-- Dependencies for OTTO Motors ROS2 API -->
   <exec_depend>clearpath_api</exec_depend>
-
-  <!-- ROS2 Dependencies -->
-  <!-- Temporarily disabled while we sort out build-farm issues
-       These will need to be manually installed!
-  <exec_depend>foxy_ros1_bridge</exec_depend>
-  <exec_depend>foxy_ros_base</exec_depend>
-  <exec_depend>foxy_rmw_cyclonedds_cpp</exec_depend>
-  -->
 
   <export>
   </export>

@@ -2,7 +2,7 @@
 
 if [ -z "$ROS2_DISTRO" ];
 then
-  ROS2_DISTRO="foxy"
+  ROS2_DISTRO="galactic"
 fi
 
 # We expect the ROS1 Bridge to exist in a separate workspace, so accept an argument for its path
