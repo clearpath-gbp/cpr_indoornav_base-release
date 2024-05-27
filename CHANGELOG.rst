@@ -2,6 +2,12 @@
 Changelog for package cpr_indoornav_base
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.1 (2024-05-27)
+------------------
+* Typo
+* Use Galactic by default; foxy doesn't seem to play nicely with IndoorNav 2.26
+* Contributors: Chris Iverach-Brereton
+
 0.4.0 (2024-01-04)
 ------------------
 * Create common installation classes to reduce code duplication in dependent packages
