@@ -2,6 +2,11 @@
 Changelog for package cpr_indoornav_base
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.2 (2024-06-07)
+------------------
+* Remove dependency on the old clearpath_api package, install the new api packages
+* Contributors: Chris Iverach-Brereton
+
 0.4.1 (2024-05-27)
 ------------------
 * Typo
